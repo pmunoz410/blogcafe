@@ -1,0 +1,71 @@
+:root {
+    --heading-font: 'PT Sans', sans-serif;
+    --paragraph-font: 'Open Sans', sans-serif;
+
+    --primary: #784d3c;
+    --white: #fff;
+    --black: #000;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Global */
+body {
+    font-family: var(--paragraph-font);
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 90%;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--heading-font);
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+h4 {
+    font-size: 2.8rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Utilities */
+.no-margin {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.center-text {
+    text-align: center;
+}
