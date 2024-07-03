@@ -209,3 +209,33 @@ img {
     padding-bottom: 2rem;
     margin-top: 4rem;
 }
+
+/* Nosotros */
+@media (min-width: 768px) {
+    .about-us {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .about-us__image,
+    .about-us__text {
+        flex-basis: 50%;
+    }
+
+    /* Soporte sin gap */
+    /*.about-us {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-us__image,
+    .about-us__text {
+        flex-basis: calc(50% - 1rem);
+    }*/
+
+    /*.about-us {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }*/
+}
