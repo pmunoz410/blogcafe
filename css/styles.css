@@ -309,3 +309,19 @@ img {
     height: 20rem;
     resize: none;
 }
+
+.error {
+    background-color: rgb(185,0,0);
+    text-align: center;
+    padding: 1rem;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.correct {
+    background-color: rgb(0,185,0);
+    text-align: center;
+    padding: 1rem;
+    color: var(--white);
+    text-transform: uppercase;
+}
